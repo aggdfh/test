@@ -1,0 +1,64 @@
+header{
+
+    height: 320px;
+    background: url(../img/2022-06-06.png);
+    background-size: cover;
+}
+
+.head-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 18px;
+
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+
+}
+
+header h2{
+    text-align:center ;
+    margin-top: 120;
+
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border-left: 1px dotted black;
+}
+
+.last-child{
+    border-right: 1px dotted black;
+}
+
+.container{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.item01{
+    width: 70%;
+}
+
+.item02{
+    width: 22%;
+    
+}
